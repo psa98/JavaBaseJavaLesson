@@ -49,6 +49,19 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
+    public void solveTask6(View view) {
+    }
+
+    public void solveTask5(View view) {
+    }
+
+    public void solveTask4(View view) {
+    }
+
+    public void solveTask3(View view) {
+    }
+
+
     public void solveTask2(View view) {
     }
 }

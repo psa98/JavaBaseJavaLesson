@@ -137,7 +137,7 @@
         <Button
             android:id="@+id/solveTask6"
             android:textAllCaps="false"
-            android:onClick="solveTask"
+            android:onClick="solveTask6"
             android:layout_marginBottom="24dp"
             android:layout_gravity="center"
             android:text="@string/solve"
