@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rootLayout"
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:id="@+id/task1"
+            android:layout_margin="12dp"
+            android:layout_width="match_parent"
+            android:text="Демонстрационное задание.\n По нажатию кнопки ниже заместить этот текст
+            суммой чисел от одного до четырех"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/solveTask1"
+            android:textAllCaps="false"
+            android:onClick="solveTask1"
+            android:layout_marginBottom="24dp"
+            android:layout_gravity="center"
+            android:text="@string/solve"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/task2"
+            android:layout_margin="12dp"
+            android:layout_width="match_parent"
+            android:text="1.Используя циклы for, массивы и условия, составьте список простых чисел от 2 до 300, и выведите его в текстовое поле    "
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/solveTask2"
+            android:textAllCaps="false"
+            android:onClick="solveTask2"
+            android:layout_marginBottom="24dp"
+            android:layout_gravity="center"
+            android:text="@string/solve"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/task3"
+            android:layout_margin="12dp"
+            android:layout_width="match_parent"
+            android:text="2.Используя циклы for, массивы и условия, найдите наименьшее число в тестовом массиве,
+            наибольшее число в тестовом массиве, первое число с наибольшим числом повторений, сумму, среднее арифметическое и произведение элементов массива
+Выведите соответствующий текст"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/solveTask3"
+            android:textAllCaps="false"
+            android:onClick="solveTask3"
+            android:layout_marginBottom="24dp"
+            android:layout_gravity="center"
+            android:text="@string/solve"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+
+        <TextView
+            android:id="@+id/task4"
+            android:layout_margin="12dp"
+            android:layout_width="match_parent"
+            android:text="3.Напишите приватный метод, преобразующий список чисел в строку значений, разделеных запятыми.\n
+Используя циклы foreach и условия, а так же методы класса Collections найдите наименьшее число в тестовом списке, наибольшее число, первое число с наибольшим числом повторений, сумму, среднее арифметическое и произведение элементов списка
+Выведите соответствующий текст.\n
+Дополнительно:\n
+- поменяйте в xml у текста этого задания размер и вид шрифта - на 16sp и italic\n
+- поменяйте цвет фона данного текста на светло-светлосерый найдя необходимое ARGB значение\n
+- измените выравнивание кнопки данного задания на экране с центрального на левое, а текста внутри кнопки - на правое"
+
+        android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/solveTask4"
+            android:textAllCaps="false"
+            android:onClick="solveTask4"
+            android:layout_marginBottom="24dp"
+            android:layout_gravity="center"
+            android:text="@string/solve"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+
+
+        <TextView
+            android:id="@+id/task5"
+            android:layout_margin="12dp"
+            android:layout_width="match_parent"
+            android:text="4.Напишите приватный метод, преобразующий список чисел в строку значений, разделеных запятыми.\n
+Используя циклы foreach и условия, а так же методы класса Collections найдите наименьшее число в тестовом списке, наибольшее число, первое число с наибольшим числом повторений, сумму, среднее арифметическое и произведение элементов списка
+Выведите соответствующий текст.\n
+Дополнительно:\n
+- поменяйте величину левого, правого, нижнего отступа для данного текстового поля на 24dp, добейтесь изменения отступа на экране
+\n- поменяйте в xml у всего этого экрана фон на  светло-соломенный, найдя необходимое ARGB значение
+\n- найдите как можно отключить для этого экрана его автоматическое гашение и добавьте необходимый ключ xml в разметку"
+
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/solveTask5"
+            android:textAllCaps="false"
+            android:onClick="solveTask5"
+            android:layout_marginBottom="24dp"
+            android:layout_gravity="center"
+            android:text="@string/solve"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/task6"
+            android:layout_margin="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="5. Используя циклы, итераторы и лямбды, а так же методы класса Collections:
+         - создайте подсписок 1 из тестового, включающий только четные числа
+         - создайте подсписок 2 из предыдущего, не содежащий повторений
+         - создайте подсписок 3 из предыдущего, отсортированный в обратном порядке
+         - создайте подсписок 4 из предыдущего, удалив каждый второй элемент
+
+         Выведите все 4 списка в текстовое поле.
+Дополнительно в разметке:\n
+- замените Button с id solveTask6 на ImageButton, подобрав к ней уместную иконку и размеры
+- замените TextView c id task6 на EditText, оцените разницу визуальную и в поведении элемента"
+/>
+
+        <Button
+            android:id="@+id/solveTask6"
+            android:textAllCaps="false"
+            android:onClick="solveTask"
+            android:layout_marginBottom="24dp"
+            android:layout_gravity="center"
+            android:text="@string/solve"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>
